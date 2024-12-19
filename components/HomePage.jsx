@@ -5,6 +5,7 @@ import Features from "@/components/HomeFeatures";
 import HomePartners from "./HomePartners";
 import HomeLocations from "./HomeLocations";
 import HomeGallery from "./HomeGallery";
+import HomeContactUs from "./HomeContactUs";
 const HomePage = () => {
   return (<>
     <section className="w-full h-max relative">
@@ -18,8 +19,9 @@ const HomePage = () => {
       </div>
     </section>
     <Features />
-    <HomeGallery />
+    <HomeContactUs />
     <HomePartners />
+    <HomeGallery />
   </>
   );
 };
