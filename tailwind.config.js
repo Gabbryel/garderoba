@@ -8,8 +8,16 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        yellow: "#e3c476",
+        pink: "#eed7ce",
+        customIndigo: "#15182ecc",
+      },
+      fontFamily: {
+        sans: ["raleway", "sans-serif"],
+        serif: ["raleway", "serif"],
+      },
+      minWidth: {
+        "100dvw": "100dvw",
       },
     },
   },
